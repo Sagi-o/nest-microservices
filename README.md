@@ -17,7 +17,7 @@ Then start application in developement mode with:
 **Main** microservice has MongoDB as a databse which you can run with the command:
 ```docker run --name mongodb -d -p 27018:27018 mongo```
 
-Then it needs to run t instances: 1 for the actual REST API server, the other for the RabbitMQ instnace that listen to events.
+It needs to run 2 instances: 1 for the actual REST API server, the other one for the RabbitMQ instance that listen to events.
 
 Run REST serve in developemnt mode with the command:
 ```npm run start:dev```
