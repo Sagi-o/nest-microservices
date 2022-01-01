@@ -1,6 +1,6 @@
 # nest-microservices
 
-2 NestJS application are found here: admin and main, both are demonstrating the microservices pattern.
+2 NestJS applications found here: **admin** and **main**, they are demonstrating the microservices pattern.
 
 **Admin** microservice has MySQL as a database which you can run with the command:
 ```docker-compose up```
